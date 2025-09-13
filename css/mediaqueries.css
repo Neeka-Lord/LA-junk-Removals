@@ -1,0 +1,250 @@
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .navbar {
+        height: auto;
+        flex-direction: column;
+    }
+    .nav_logo {
+        width: 100%;
+        padding: 2em 1em;
+    }
+    .navbar .checkBtn {
+        display: block;
+        position: absolute;
+        top: 0.7em;
+        left: 0.5em;
+    }
+    .nav-menu {
+        opacity: 0;
+        width: 65%;
+        background-color: #a22a2a;
+        height: 100vh;
+        position: fixed;
+        top: 120px;
+        left: 0;
+        z-index: 12;
+        padding-top: 1em;
+        box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.24);
+        transition: background 0.3s ease-in-out;
+    }
+    .nav-menu li {
+        display: block;
+        padding: 1em;
+        border-bottom: 1px solid gray;
+    }
+    .nav-menu li span {
+        display: none;
+    }
+    .navbar #check {
+        opacity: 0;
+    }
+    .navbar input:checked ~ .nav-menu {
+        opacity: 1;
+    }
+
+    /*  FORMULA  */
+        #formula {
+        padding: 0;
+    }
+    .formula {
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+    .form_wrapper {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .forma input {
+        margin-bottom: 2em;
+    }
+    /*  ABOUT  */
+    .about {
+        flex-direction: column;
+    }
+    .about_content {
+        width: 100%;
+    }
+    .contact_background {
+        height: auto;
+        background-attachment: unset;
+    }
+    .contact_frame {
+        height: auto;
+    }
+    .contactus {
+        padding-top: 0;
+        padding: 2em 0;
+    }
+
+    /*  testimonial  */
+    .testimonial_items {
+        height: auto;
+        flex-direction: column;
+    }
+    .testimonial_items .item {
+        width: 100%;
+    }
+    .item p {
+        padding: 0;
+    }
+
+}
+
+                       /*------------------------------------/
+                      /        MOBILE DESIGN BELLOW         /
+                     /----------------------------------- */
+
+@media only screen and (max-width: 600px){
+    .navbar {
+        height: auto;
+        flex-direction: column;
+    }
+    .nav_logo {
+        width: 100%;
+        padding: 2em 1em;
+    }
+    .nav_logo .nav_anchor {
+        font-size: 2em;
+    }
+    .navbar .checkBtn {
+        display: block;
+        position: absolute;
+        top: 0.5em;
+        left: 0.5em;
+    }
+    .nav-menu {
+        opacity: 0;
+        width: 100%;
+        background-color: #a22a2a;
+        height: 100vh;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        z-index: 12;
+        padding-top: 1em;
+        box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.24);
+        transition: background 0.3s ease-in-out;
+    }
+    .nav-menu li {
+        display: block;
+        padding: 1em;
+        border-bottom: 1px solid gray;
+    }
+    .nav-menu li span {
+        display: none;
+    }
+    .navbar #check {
+        opacity: 0;
+    }
+    .navbar input:checked ~ .nav-menu {
+        opacity: 1;
+    }
+
+
+}
+/*  MAIN SECTION MEDIA QUERIES  */
+@media only screen and (max-width: 600px){
+    .hero_background {
+        width: 100%;
+        height: 50vh;
+        background-attachment: unset;
+    }
+    .hero {
+        display: unset;
+        border: 1px solid rgba(255, 0, 0, 0.7);
+    }
+    .hero h1 {
+        font-size: 3em;
+        margin-top: 2em;
+    }
+
+
+    /* FOURPLEX SECTION */
+    .fourplex {
+        height: auto;
+        padding: 2em 0;
+    }
+
+    /* FORMULA  */
+        #formula {
+        padding: 0;
+    }
+    .formula {
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+    .form_wrapper {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .forma input {
+        margin-bottom: 2em;
+    }
+
+    /*  ABOUT SECTION */
+    .about {
+        height: auto;
+        flex-direction: column;
+    }
+    .about_content {
+        width: 100%;
+    }
+
+    /* ARTICLE SECTIONS */
+    .article_headed {
+        height: auto;
+        font-size: 65%;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .article_wrapper {
+        height: auto;
+        flex-direction: column;
+    }
+    .article_content {
+        width: 100%;
+    }
+    .article_img {
+        height: auto;
+        margin-bottom: 2em;
+    }
+
+    .article_img-2nd {
+        margin-top: 2em;
+    }
+
+    /*  CONTACT SECTION  */
+    .contact_background {
+        height: auto;
+        background-attachment: unset;
+    }
+    .contactus {
+        padding-top: 2em;
+    }
+    #contact_btn {
+        margin: 2em auto;
+    }
+
+    /*  TESTIMONIAL SECTION  */
+    .testimonial_items {
+        height: auto;
+        flex-direction: column;
+    }
+    .testimonial_items .item {
+        width: 100%;
+    }
+
+    /* LASTING SECTION */
+    .last_section H2 {
+        font-size: 2em;
+    }
+    
+    /* SCROLL TO TOP */
+    .two_top-right #two_top {
+     right: 1em;
+}
+
+}
