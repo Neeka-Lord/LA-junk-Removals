@@ -147,16 +147,25 @@
 @media only screen and (max-width: 600px){
     .hero_background {
         width: 100%;
-        height: 50vh;
+        height: auto;
         background-attachment: unset;
     }
     .hero {
-        display: unset;
-        border: 1px solid rgba(255, 0, 0, 0.7);
+        height: inherit;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 2em 0 3em;
     }
     .hero h1 {
         font-size: 3em;
-        margin-top: 2em;
+    }
+    
+       /* ALPHA SECTION */
+    .alpha {
+        padding: 2em 0;
+    }
+    .alpha h2 {
+        font-size: 2em;
     }
 
 
@@ -229,6 +238,9 @@
     }
 
     /*  TESTIMONIAL SECTION  */
+    .testimonial_head h2 {
+        font-size: 2em;
+    }
     .testimonial_items {
         height: auto;
         flex-direction: column;
@@ -246,5 +258,6 @@
     .two_top-right #two_top {
      right: 1em;
 }
+
 
 }
