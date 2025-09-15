@@ -25,6 +25,7 @@
         z-index: 12;
         padding-top: 1em;
         box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.24);
+        pointer-events: none;
         transition: background 0.3s ease-in-out;
     }
     .nav-menu li {
@@ -40,6 +41,8 @@
     }
     .navbar input:checked ~ .nav-menu {
         opacity: 1;
+
+        pointer-events: auto;
     }
 
     /*  FORMULA  */
@@ -124,6 +127,7 @@
         z-index: 12;
         padding-top: 1em;
         box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.24);
+        pointer-events: none;
         transition: background 0.3s ease-in-out;
     }
     .nav-menu li {
@@ -139,6 +143,8 @@
     }
     .navbar input:checked ~ .nav-menu {
         opacity: 1;
+
+        pointer-events: auto;
     }
 
 
@@ -261,4 +267,5 @@
 
 
 }
+
 
