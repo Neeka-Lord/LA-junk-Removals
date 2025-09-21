@@ -114,7 +114,7 @@
         display: block;
         position: absolute;
         top: 0.5em;
-        left: 0.5em;
+        left: 0.2em;
     }
     .nav-menu {
         opacity: 0;
@@ -206,6 +206,9 @@
     .about_content {
         width: 100%;
     }
+    .about_text {
+        padding: 1em 1em 2em;
+    }
 
     /* ARTICLE SECTIONS */
     .article_headed {
@@ -236,6 +239,10 @@
         height: auto;
         background-attachment: unset;
     }
+    .contact_frame {
+        height: auto;
+        padding-bottom: 2em;
+    }
     .contactus {
         padding-top: 2em;
     }
@@ -256,8 +263,16 @@
     }
 
     /* LASTING SECTION */
-    .last_section H2 {
+    .last_section h2 {
         font-size: 2em;
+    }
+    /*  FOOTER */
+    .footer h2 {
+        font-size: 2em;
+    }
+    .footer-socials a img {
+        width: 30px;
+        height: 30px;
     }
     
     /* SCROLL TO TOP */
@@ -267,5 +282,6 @@
 
 
 }
+
 
 
