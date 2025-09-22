@@ -705,6 +705,8 @@ footer {
     .item p {
         padding: 0;
     }
+  /**/
+  
 
 }
 
@@ -879,7 +881,7 @@ footer {
     .footer h2 {
       font-size: 2em
     }
-    .footer-socials {
+    .footer-socials img {
       width: 30px;
       height: 30px;
     }
@@ -890,5 +892,6 @@ footer {
 }
 
 }
+
 
 
